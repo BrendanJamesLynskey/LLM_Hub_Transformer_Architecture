@@ -15,6 +15,7 @@ Decoder-only transformer internals — from a visual walkthrough to RTL and from
 | 05 | [Transformer Decoder from Scratch](https://github.com/BrendanJamesLynskey/Python_Transformer_Decoder) | live | Step-by-step PyTorch implementation in a single Jupyter notebook — every component built from first principles and visualised. |
 | 06 | [Neural Network Data Types](https://github.com/BrendanJamesLynskey/NN_data_types) | live | SystemVerilog implementations of 9 numerical formats (FP32 down to FP4) used in NN training and inference hardware. |
 | 07 | [Hardware-Aware Quantisation](https://github.com/BrendanJamesLynskey/Hardware_Aware_Quantisation) | live | Interactive quantisation explorer — formats, weight distributions, schemes, simulated inference, hardware cost models, mixed-precision. |
+| 08 | [AI Matrix Multiplier Units (MMUL)](https://github.com/BrendanJamesLynskey/AI_MMUL_Unit) | live | Hardware deep-dive on the MMUL — 24-slide presentation (Kung 1978/82 → TPU → Blackwell, four dataflow architectures, Transformer mapping, FP32 → FP4 / MXFP / NVFP4, real systems, memory hierarchy, power & thermals) plus four parameterised SystemVerilog implementations, Python golden model, 258 passing tests, and Vivado synthesis results. |
 
 ## Where this fits
 
