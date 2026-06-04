@@ -17,6 +17,10 @@ Decoder-only transformer internals — from a visual walkthrough to RTL and from
 | 07 | [Hardware-Aware Quantisation](https://github.com/BrendanJamesLynskey/Hardware_Aware_Quantisation) | live | Interactive quantisation explorer — formats, weight distributions, schemes, simulated inference, hardware cost models, mixed-precision. |
 | 08 | [AI Matrix Multiplier Units (MMUL)](https://github.com/BrendanJamesLynskey/AI_MMUL_Unit) | live | Hardware deep-dive on the MMUL — 24-slide presentation (Kung 1978/82 → TPU → Blackwell, four dataflow architectures, Transformer mapping, FP32 → FP4 / MXFP / NVFP4, real systems, memory hierarchy, power & thermals) plus four parameterised SystemVerilog implementations, Python golden model, 258 passing tests, and Vivado synthesis results. |
 
+## Related series
+
+The nanoGPT deck (04) is shared with **[Karpathy: Neural Networks Zero to Hero](https://github.com/BrendanJamesLynskey/LLM_Hub_Karpathy_Zero_to_Hero)**, which walks through Andrej Karpathy's other from-scratch teaching codebases too — micrograd, makemore, minbpe, minGPT, llm.c and nanochat.
+
 ## Where this fits
 
 Part of the [LLMs hub](https://github.com/BrendanJamesLynskey/LLMs) &mdash; an index of presentation series for AI/LLM engineers.
